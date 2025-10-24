@@ -1,0 +1,75 @@
+{"milkproducts":[
+  {
+      "name": "Organic Cow Milk",
+      "description": "Fresh, hormone-free organic cow milk sourced directly from local farms.",
+      "price": 60,
+      "image_url": "images/milkproducts/cowmilk.jpg"
+    },
+    {
+      "name": "Organic Buffalo Milk",
+      "description": "Creamy and rich buffalo milk, full of calcium and protein.",
+      "price": 70,
+      "image_url": "images/milkproducts/milk.jpg"
+    },
+    {
+      "name": "Duck Egg",
+      "description": "Farm-fresh organic duck eggs with high protein and flavor.",
+      "price": 15,
+      "image_url": "images/milkproducts/duck.jpg"
+    },
+    {
+      "name": "Hen Egg",
+      "description": "Free-range organic hen eggs rich in nutrients and taste.",
+      "price": 8,
+      "image_url": "images/milkproducts/hen.jpg"
+    },
+    {
+      "name": "Quail Egg",
+      "description": "Small but nutrient-dense organic quail eggs, ideal for salads and snacks.",
+      "price": 5,
+      "image_url": "images/milkproducts/quail.jpg"
+    },
+    {
+      "name": "Turkey Egg",
+      "description": "Nutrient-dense organic Turkey eggs, ideal for salads and snacks.",
+      "price": 5,
+      "image_url": "images/milkproducts/turkey.jpg"
+    },
+    {
+      "name": "Organic Ghee",
+      "description": "Pure and aromatic organic cow ghee made from fresh cream.",
+      "price": 650,
+      "image_url": "images/milkproducts/ghee.jpg"
+    },
+    {
+      "name": "Organic Butter",
+      "description": "Soft and creamy organic butter, perfect for baking and cooking.",
+      "price": 300,
+      "image_url": "images/milkproducts/butter.jpg"
+    },
+    {
+      "name": "Organic Curd",
+      "description": "Thick and fresh organic curd made from pure cow milk.",
+      "price": 60,
+      "image_url": "images/milkproducts/curd.jpg"
+    },
+    {
+      "name": "Organic Buttermilk",
+      "description": "Refreshing and probiotic-rich organic buttermilk, naturally churned.",
+      "price": 40,
+      "image_url": "images/milkproducts/buttermilk.jpg"
+    },
+    {
+      "name": "Organic Paneer",
+      "description": "Soft and fresh organic paneer made from full-cream milk.",
+      "price": 120,
+      "image_url": "images/milkproducts/paneer.jpg"
+    },
+    {
+      "name": "Organic Cheese",
+      "description": "Natural and preservative-free organic cheese with rich flavor.",
+      "price": 250,
+      "image_url": "images/milkproducts/cheese.jpg"
+    }
+]
+}

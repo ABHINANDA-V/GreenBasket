@@ -1,0 +1,93 @@
+{"spices":[
+  {
+    "name": "Organic Turmeric Powder",
+    "description": "Pure organic turmeric powder with natural curcumin, grown without chemicals.",
+    "price": 120,
+    "image_url": "./images/spices/turmeric.jpg"
+  },
+  {
+    "name": "Organic Cumin Seeds",
+    "description": "Aromatic organic cumin seeds perfect for tempering and flavoring dishes.",
+    "price": 180,
+    "image_url": "./images/spices/cumin.jpg"
+  },
+  {
+    "name": "Organic Coriander Powder",
+    "description": "Freshly ground organic coriander powder for authentic taste and aroma.",
+    "price": 100,
+    "image_url": "./images/spices/coriander.jpg"
+  },
+  {
+    "name": "Organic Red Chilli Powder",
+    "description": "Spicy organic red chilli powder made from sun-dried chillies.",
+    "price": 150,
+    "image_url": "./images/spices/chilly.jpg"
+  },
+  {
+    "name": "Organic Black Pepper",
+    "description": "Bold and pungent organic black pepper corns from sustainable farms.",
+    "price": 280,
+    "image_url": "./images/spices/pepper.jpg"
+  },
+  {
+    "name": "Organic Garam Masala",
+    "description": "Handcrafted blend of organic spices for authentic Indian flavor.",
+    "price": 200,
+    "image_url": "./images/spices/garam.jpg"
+  },
+  {
+    "name": "Organic Cardamom",
+    "description": "Premium organic green cardamom pods with intense aroma.",
+    "price": 450,
+    "image_url": "./images/spices/cardamom.jpg"
+  },
+  {
+    "name": "Organic Cinnamon Sticks",
+    "description": "Sweet and fragrant organic cinnamon sticks from natural forests.",
+    "price": 220,
+    "image_url": "./images/spices/cinamon.jpg"
+  },
+  {
+    "name": "Organic Cloves",
+    "description": "Aromatic organic cloves with strong flavor and medicinal properties.",
+    "price": 380,
+    "image_url": "./images/spices/cloves.jpg"
+  },
+  {
+    "name": "Organic Bay Leaves",
+    "description": "Dried organic bay leaves for adding depth to curries and stews.",
+    "price": 90,
+    "image_url": "./images/spices/bay.jpg"
+  },
+  {
+    "name": "Organic Mustard Seeds",
+    "description": "Pungent organic mustard seeds ideal for tempering and pickling.",
+    "price": 110,
+    "image_url": "./images/spices/mustard.jpg"
+  },
+  {
+    "name": "Organic Fenugreek Seeds",
+    "description": "Bitter-sweet organic fenugreek seeds rich in nutrients.",
+    "price": 130,
+    "image_url": "./images/spices/fenugreek.jpg"
+  },
+  {
+    "name": "Organic Fennel Seeds",
+    "description": "Sweet and aromatic organic fennel seeds for digestion and flavor.",
+    "price": 140,
+    "image_url": "./images/spices/fennel.jpg"
+  },
+  {
+    "name": "Organic Star Anise",
+    "description": "Star-shaped organic spice with licorice-like flavor.",
+    "price": 320,
+    "image_url": "./images/spices/star.jpg"
+  },
+  {
+    "name": "Organic Nutmeg",
+    "description": "Warm and sweet organic nutmeg for baking and cooking.",
+    "price": 350,
+    "image_url": "./images/spices/nutmug.jpg"
+  }
+]
+}

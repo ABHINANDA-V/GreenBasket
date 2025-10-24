@@ -1,0 +1,147 @@
+{"vegetables":[
+  {
+    "name": "Organic Tomato",
+    "description": "Juicy and naturally ripened organic tomatoes grown without chemical fertilizers or pesticides.",
+    "price": 80,
+    "image_url": "./images/vegetables/tomato.jpg"
+  },
+  {
+    "name": "Organic Potato",
+    "description": "Fresh and earthy organic potatoes cultivated using sustainable farming practices.",
+    "price": 60,
+    "image_url": "./images/vegetables/potato.jpg"
+  },
+  {
+    "name": "Organic Onion",
+    "description": "Naturally grown organic onions packed with strong flavor and essential nutrients.",
+    "price": 70,
+    "image_url": "./images/vegetables/onion.jpg"
+  },
+  {
+    "name": "Organic Carrot",
+    "description": "Sweet and crunchy organic carrots rich in beta-carotene and grown in chemical-free soil.",
+    "price": 90,
+    "image_url": "./images/vegetables/carrot.jpg"
+  },
+  {
+    "name": "Organic Cucumber",
+    "description": "Fresh organic cucumbers with a crisp texture, perfect for salads and hydration.",
+    "price": 60,
+    "image_url": "./images/vegetables/cucumber.jpg"
+  },
+  {
+    "name": "Organic Capsicum",
+    "description": "Colorful organic capsicums rich in vitamins and antioxidants, grown without chemicals.",
+    "price": 120,
+    "image_url": "./images/vegetables/capssicum.jpg"
+  },
+  {
+    "name": "Organic Cabbage",
+    "description": "Tender and crunchy organic cabbages cultivated using traditional organic farming.",
+    "price": 50,
+    "image_url": "./images/vegetables/cabbage.jpg"
+  },
+  {
+    "name": "Organic Cauliflower",
+    "description": "Farm-fresh organic cauliflower with dense florets and mild natural flavor.",
+    "price": 80,
+    "image_url": "./images/vegetables/cauliflower.jpg"
+  },
+  {
+    "name": "Organic Broccoli",
+    "description": "Nutrient-rich organic broccoli with a crisp texture and fresh green color.",
+    "price": 150,
+    "image_url": "./images/vegetables/broccoli.jpg"
+  },
+  {
+    "name": "Organic Spinach",
+    "description": "Iron-rich organic spinach leaves freshly harvested from pesticide-free farms.",
+    "price": 60,
+    "image_url": "./images/vegetables/spinach.jpg"
+  },
+  {
+    "name": "Organic Bitter Gourd",
+    "description": "Healthy organic bitter gourds rich in nutrients and grown without chemical pesticides.",
+    "price": 80,
+    "image_url": "./images/vegetables/bittergourd.jpg"
+  },
+  {
+    "name": "Organic Brinjal (Eggplant)",
+    "description": "Glossy purple organic brinjals with a mild flavor, cultivated using organic compost.",
+    "price": 90,
+    "image_url": "./images/vegetables/brinjal.jpg"
+  },
+  {
+    "name": "Organic Lady Finger (Okra)",
+    "description": "Tender organic okras full of fiber and vitamins, freshly picked from organic farms.",
+    "price": 100,
+    "image_url": "./images/vegetables/ladyfinger.jpg"
+  },
+  {
+    "name": "Organic Green Peas",
+    "description": "Sweet and protein-rich organic green peas grown using sustainable organic practices.",
+    "price": 120,
+    "image_url": "./images/vegetables/greenpeas.jpg"
+  },
+  {
+    "name": "Organic Beans",
+    "description": "Crisp and nutritious organic beans handpicked from eco-friendly farms.",
+    "price": 100,
+    "image_url": "./images/vegetables/beans.jpg"
+  },
+  {
+    "name": "Organic Pumpkin",
+    "description": "Naturally sweet organic pumpkins rich in fiber and beta-carotene.",
+    "price": 90,
+    "image_url": "./images/vegetables/pumpkin.jfif"
+  },
+  {
+    "name": "Organic Bottle Gourd",
+    "description": "Hydrating and fiber-rich organic bottle gourds grown in organic fields.",
+    "price": 80,
+    "image_url": "./images/vegetables/bottle.jpg"
+  },
+  {
+    "name": "Organic Drumstick",
+    "description": "Nutritious organic drumsticks with a strong earthy flavor, rich in calcium and iron.",
+    "price": 120,
+    "image_url": "./images/vegetables/drumstick.jpg"
+  },
+  {
+    "name": "Organic Beetroot",
+    "description": "Vibrant organic beetroots rich in iron and antioxidants, cultivated naturally.",
+    "price": 110,
+    "image_url": "./images/vegetables/beetroot.jpg"
+  },
+  {
+    "name": "Organic Radish",
+    "description": "Crisp and peppery organic radishes freshly harvested from organic soil.",
+    "price": 70,
+    "image_url": "./images/vegetables/radish.jpg"
+  },
+  {
+    "name": "Organic Coriander Leaves",
+    "description": "Aromatic organic coriander leaves freshly plucked for natural flavor and aroma.",
+    "price": 40,
+    "image_url": "./images/vegetables/coriander.jpg"
+  },
+  {
+    "name": "Organic Mint Leaves",
+    "description": "Cool and refreshing organic mint leaves grown naturally without chemical sprays.",
+    "price": 50,
+    "image_url": "./images/vegetables/mint.jpg"
+  },
+  {
+    "name": "Organic Curry Leaves",
+    "description": "Fragrant organic curry leaves freshly plucked from sustainable organic farms.",
+    "price": 30,
+    "image_url": "./images/vegetables/curry.jpg"
+  },
+  {
+    "name": "Organic Ridge Gourd",
+    "description": "Light and nutritious organic ridge gourds cultivated with natural compost.",
+    "price": 90,
+    "image_url": "./images/vegetables/ridge.jpg"
+  }
+]
+}

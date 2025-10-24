@@ -1,0 +1,147 @@
+{"fruits":[
+  {
+    "name": "Organic Apple",
+    "description": "Crisp, juicy, and naturally sweet organic apples grown without pesticides for pure farm-fresh goodness.",
+    "price": 180,
+    "image_url": "./images/fruits/apple.jpeg"
+  },
+  {
+    "name": "Organic Banana",
+    "description": "Naturally ripened organic bananas rich in potassium and full of natural sweetness, free from artificial ripening agents.",
+    "price": 60,
+    "image_url": "./images/fruits/banana.jpeg"
+  },
+  {
+    "name": "Organic Mango",
+    "description": "Sun-ripened organic mangoes with a luscious tropical flavor, grown without harmful chemicals.",
+    "price": 250,
+    "image_url": "./images/fruits/mango.jpeg"
+  },
+  {
+    "name": "Organic Papaya",
+    "description": "Sweet and tender organic papayas rich in fiber and antioxidants, freshly harvested from sustainable farms.",
+    "price": 90,
+    "image_url": "./images/fruits/pappaya.jpeg"
+  },
+  {
+    "name": "Organic Orange",
+    "description": "Juicy and tangy organic oranges packed with natural vitamin C and grown in eco-friendly orchards.",
+    "price": 140,
+    "image_url": "./images/fruits/orange.jpeg"
+  },
+  {
+    "name": "Organic Pomegranate",
+    "description": "Bright red organic pomegranates bursting with sweet-tart flavor and loaded with antioxidants.",
+    "price": 200,
+    "image_url": "./images/fruits/pomegranates.jpeg"
+  },
+  {
+    "name": "Organic Grapes",
+    "description": "Fresh and juicy organic grapes handpicked from pesticide-free vineyards for a natural sweetness.",
+    "price": 160,
+    "image_url": "./images/fruits/grapes.jpeg"
+  },
+  {
+    "name": "Organic Pineapple",
+    "description": "Tropical organic pineapples with a perfect balance of sweetness and tang, grown using natural compost.",
+    "price": 180,
+    "image_url": "./images/fruits/pineapple.jpeg"
+  },
+  {
+    "name": "Organic Watermelon",
+    "description": "Refreshing organic watermelons with juicy red flesh, cultivated using natural irrigation methods.",
+    "price": 100,
+    "image_url": "./images/fruits/watermelon.jpeg"
+  },
+  {
+    "name": "Organic Guava",
+    "description": "Crisp and aromatic organic guavas rich in vitamin C, grown without any chemical fertilizers.",
+    "price": 120,
+    "image_url": "./images/fruits/guava.jpeg"
+  },
+  {
+    "name": "Organic Kiwi",
+    "description": "Soft, tangy organic kiwis with vibrant green flesh, cultivated through sustainable organic farming.",
+    "price": 230,
+    "image_url": "./images/fruits/kiwi.jpeg"
+  },
+  {
+    "name": "Organic Dragon Fruit",
+    "description": "Exotic organic dragon fruits rich in fiber and antioxidants, naturally grown without chemicals.",
+    "price": 260,
+    "image_url": "./images/fruits/dragonfruit.jpeg"
+  },
+  {
+    "name": "Organic Strawberry",
+    "description": "Deliciously sweet organic strawberries freshly picked from chemical-free farms.",
+    "price": 300,
+    "image_url": "./images/fruits/strawberry.jpeg"
+  },
+  {
+    "name": "Organic Blueberry",
+    "description": "Nutrient-rich organic blueberries with a delightful burst of sweetness and no synthetic sprays.",
+    "price": 350,
+    "image_url": "./images/fruits/blueberry.jpeg"
+  },
+  {
+    "name": "Organic Chikoo (Sapota)",
+    "description": "Naturally sweet organic chikoos grown with traditional methods and zero preservatives.",
+    "price": 150,
+    "image_url": "./images/fruits/chikku.jpeg"
+  },
+  {
+    "name": "Organic Custard Apple",
+    "description": "Creamy and fragrant organic custard apples grown without artificial ripeners.",
+    "price": 180,
+    "image_url": "./images/fruits/custardapple.jpeg"
+  },
+  {
+    "name": "Organic Pear",
+    "description": "Juicy and tender organic pears cultivated using eco-friendly farming techniques.",
+    "price": 200,
+    "image_url": "./images/fruits/pear.jpeg"
+  },
+  {
+    "name": "Organic Plum",
+    "description": "Naturally ripened organic plums offering a sweet and tart balance of flavor.",
+    "price": 220,
+    "image_url": "./images/fruits/plum.jpeg"
+  },
+  {
+    "name": "Organic Cherry",
+    "description": "Luscious red organic cherries grown without harmful pesticides, full of natural antioxidants.",
+    "price": 400,
+    "image_url": "./images/fruits/cherry.jpg"
+  },
+  {
+    "name": "Organic Fig",
+    "description": "Soft, sweet organic figs rich in minerals and grown in fertile organic soil.",
+    "price": 280,
+    "image_url": "./images/fruits/fig.jpg"
+  },
+  {
+    "name": "Organic Melon",
+    "description": "Juicy organic melons with a refreshing sweetness, cultivated using natural compost.",
+    "price": 160,
+    "image_url": "./images/fruits/melon.jpg"
+  },
+  {
+    "name": "Organic Litchi",
+    "description": "Aromatic organic litchis with soft, juicy flesh grown in chemical-free orchards.",
+    "price": 300,
+    "image_url": "./images/fruits/litchi.jpg"
+  },
+  {
+    "name": "Organic Jackfruit",
+    "description": "Large, nutritious organic jackfruits with natural sweetness and high fiber content.",
+    "price": 100,
+    "image_url": "./images/fruits/jack.jpg"
+  },
+  {
+    "name": "Organic Dates",
+    "description": "Soft, caramel-flavored organic dates naturally sun-dried and free from added sugars.",
+    "price": 350,
+    "image_url": "./images/fruits/dates.jpg"
+  }
+]
+}

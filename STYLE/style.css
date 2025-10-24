@@ -1,0 +1,1174 @@
+html 
+{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust based on navbar height */
+}
+/* General Style */
+*
+{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root
+{
+    --primary-color:green;
+    --secondary-color:white;
+    --third-color:#446e4e;
+    --fourth-color:rgb(192, 243, 6);
+    --fifth-color: #dc3545;
+}
+section
+{
+    margin-bottom: 17px;
+}
+/* Navbar style*/
+.navbar
+{
+    background-color:var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar .navbar-brand img
+{
+    width:70px;
+    height:70px;
+    margin-left: 70px;
+}
+.navbar .nav-item .nav-link
+{
+    color:var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 25px;
+}
+.navbar .nav-item .nav-link:hover
+{
+    color:var(--fourth-color);
+}
+.navbar .nav-icon
+{
+    color:var(--primary-color);
+    margin-right: 10px;
+    font-size:1.4rem;
+    position: relative;
+}
+.navbar .nav-icon:hover
+{
+    color: var(--fourth-color) !important;
+}
+.navbar .nav-icon .badge
+{
+    font-size: 0.7rem;
+}
+/* Search Container */
+.search-container
+{
+    background-color:var(--secondary-color);
+    padding: 20px 0;
+    border-bottom: 2px soild var(--primary-color);
+}
+#searchResults
+{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.search-result-item
+{
+    background-color:var(--secondary-color);
+    padding:15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.search-result-item:hover
+{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+.search-result-item img
+{
+    width:60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+/* Hero Section */
+.hero-section
+{
+    margin-bottom: 40px;
+}
+.hero-section .carousel-caption
+{
+    color:var(--secondary-color);
+}
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+.carousel-caption
+{
+    margin: 200px auto;
+}
+.carousel-caption h5 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.carousel-caption p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+/* Section Heading and Section Subheading */
+.section-heading
+ {
+     font-size: 2rem;
+     color: var(--primary-color);
+     text-align: center;
+     font-weight: bold;
+ } 
+.section-subheading
+ {
+     font-size: 1.1rem;
+     color: var(--third-color);
+     text-align: center;
+     margin-bottom: 40px;
+     font-style: italic;
+ } 
+
+ /* Product Category */
+ .product-section .category-card
+ {
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+ }
+ .product-section .category-card img
+ {
+    height: 200px;
+    object-fit: cover;
+ }
+.product-section .category-card:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+/* Product Cards */
+.product-card
+{
+    border:none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    height: 100%;
+}
+.product-card:hover
+{
+    transform:translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);    
+}
+.product-card img
+{
+    height: 200px;
+    object-fit: cover;
+}
+.product-price
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:var(--primary-color);
+}
+.wishlist-btn,.card-btn
+{
+    transition: all 0.3s;
+}
+.wishlist-btn:hover
+{
+    background-color:var(--fifth-color) !important;
+    border-color: var(--fifth-color)!important;   
+}
+.wishlist-btn.active
+ {
+    background-color:var(--fifth-color) !important;
+    border-color: var(--fifth-color)!important;
+}
+
+/* Card Items */
+.card-item
+{
+    background:var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quantity-controls button {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+.quantity-controls span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+/* Wishlist Items */
+.wishlist-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.wishlist-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*Gallery Section */
+.gallery-section{
+      padding: 60px 0;
+      background-color:var(--secondary-color);
+    }
+    .gallery-section img {
+      border-radius: 12px;
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .gallery-section  img:hover {
+      transform: scale(1.05);
+    }
+
+/* Bootstrap Carousel Customization */
+.review-section .carousel {
+    padding: 0 60px;
+}
+
+.review-section .carousel-inner {
+    padding: 20px 0;
+}
+
+/* Review Card Styles */
+.review-section .review-card {
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 8px;
+    background:var(--secondary-color);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.review-section .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+}
+
+.review-section .review-card .card-body {
+    padding: 25px 20px;
+}
+
+/* Customer Image */
+.review-section .customer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-section .customer-img img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Review Text */
+.review-section .review-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--third-color);
+    font-style: normal;
+    margin: 12px 0;
+    min-height: 75px;
+}
+
+/* Stars */
+.review-section .stars i {
+    color: #ffc107;
+    font-size: 0.85rem;
+    margin: 0 1px;
+}
+
+/* Customer Name */
+.review-section .customer-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: 0.95rem;
+}
+
+/* Carousel Controls (Arrow Buttons) */
+.review-section .carousel-control-prev,
+.review-section .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.review-section .carousel-control-prev {
+    left: 0;
+}
+
+.review-section .carousel-control-next {
+    right: 0;
+}
+
+.review-section .carousel-control-prev-icon,
+.review-section .carousel-control-next-icon {
+    background-color: var(--third-color);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.review-section .carousel-control-prev-icon:hover,
+.review-section .carousel-control-next-icon:hover {
+    background-color: var(--third-color);
+    transform: scale(1.1);
+}
+
+/* Carousel Indicators (Dots) */
+.review-section .carousel-indicators {
+    margin-bottom: -30px;
+}
+
+.review-section .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.review-section .carousel-indicators button.active {
+    background-color:var(--third-color);
+    transform: scale(1.3);
+}
+
+.review-section .carousel-indicators button:hover {
+    background-color: var(--third-color);
+}
+
+/* About Us Section Starts Here */
+
+.about-section .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.about-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.about-section .row {
+    align-items: stretch;
+}
+
+.about-section .card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-section .col-md-6 {
+    display: flex;
+    align-items: stretch;
+}
+
+.about-section .card-body {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 450px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar for card-body */
+.about-section .card-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.about-section .card-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.about-section .card-body::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.about-section .card-body::-webkit-scrollbar-thumb:hover {
+    background: var(--third-color);
+}
+
+.about-section .card-body h5 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.about-section .card-body h3 {
+    color: var(--third-color);
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.about-section .card-body p {
+    line-height: 1.7;
+    color: #555;
+    font-size: 16px;
+}
+
+.about-section .card-body ul li {
+    margin-bottom: 0.75rem;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-section .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    white-space: normal;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+.about-section .quotes {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-top: 3rem;
+    box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
+}
+
+.about-section .quotes p {
+    margin: 0;
+    font-style: italic;
+}
+
+/* About Us Section Ends Here */
+
+/* Contact Section Starts Here */
+ .contact-section
+        {
+            margin: 50px auto;
+        }
+    
+        .contact-card
+        {
+            background-color: white;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0,0, 0.1);
+        }
+        .contact-card .para  
+        {
+            font-size: 16px;
+            color:var(--third-color);
+        }
+        .contact-card li 
+        {
+            font-size: 16px;
+            margin-bottom: 10px;
+
+        }
+        iframe
+        {
+            width:100%;
+            height: 350px;
+            border-radius: 10px;
+        }
+        form label
+        {
+            font-weight: 500;
+        }
+        .btn-custome
+        {
+            background-color:var(--primary-color);
+            color:var(--secondary-color);
+        }
+        .btn-custome:hover
+        {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+        .contact-card h2
+        {
+            color: rgb(45, 175, 45);
+            font-weight: 700;
+        }
+        .contact-card p,.contact-card li
+        {
+            color: #555;
+        }
+        .contact-card i
+        {
+            margin-right: 10px;
+            color:var(--primary-color);
+        }
+        .formcontact .error
+        {
+            color:red;
+        }
+
+/* Contact Section Ends Here */
+
+/* Footer Starts Here */
+ footer
+        {
+            background-color: rgb(8, 59, 8);
+            color: var(--secondary-color);
+            padding: 60px 0;
+        }
+        footer .footer-logo 
+        {
+            color: rgb(65, 206, 65);
+            font-weight: 700;
+        }
+        footer .footer-social a
+        {
+            margin-right: 20px;
+            font-size: 25px;
+            color:  rgb(65, 206, 65);
+             transition: 0.3s;
+        }
+        .footer-social a:hover
+         {
+            color: var(--secondary-color);
+            transform: scale(1.2);
+         }
+
+        footer .quick-links a
+        {
+            text-decoration: none;
+            color:var(--secondary-color);
+        }
+        footer a:hover
+        {
+            color: var(--primary-color);
+        }
+        
+        footer .footer-bottom
+        {
+            border-top: 1px solid rgb(120, 153, 120);
+            padding-top: 10px;
+            font-size: 14px;
+        }
+/*================Media Query===================================*/
+/* Extra Small Devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 1.4rem;
+    }
+    .section-subheading {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    .card-body h5 {
+        font-size: 1.1rem;
+    }
+    .card-body h3 {
+        font-size: 1.3rem;
+    }
+    .card-body p,
+    .card-body li {
+        font-size: 14px;
+    }
+    
+    /* Review Section */
+    .review-section .carousel {
+        padding: 0 45px;
+    }
+    .review-section .section-title {
+        font-size: 1.5rem;
+    }
+    .review-section .review-badge {
+        font-size: 0.85rem;
+        padding: 4px 15px;
+    }
+    .review-section .review-card .card-body {
+        padding: 20px 15px !important;
+    }
+    .review-section .customer-img img {
+        width: 65px;
+        height: 65px;
+    }
+    .review-section .carousel-control-prev-icon,
+    .review-section .carousel-control-next-icon {
+        width: 35px;
+        height: 35px;
+        background-size: 15px;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+    .about-section .card {
+        margin-bottom: 2rem !important;
+    }
+    .about-section .row {
+        flex-direction: column;
+    }
+    .about-section .card img {
+        height: 250px;
+        margin-bottom: 0;
+    }
+    .about-section .col-md-6 {
+        display: block;
+    }
+    .about-section .card-body {
+        padding: 1.5rem !important;
+        height: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.15rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1rem;
+    }
+    .about-section .card-body p,
+    .about-section .card-body ul li {
+        font-size: 14px;
+    }
+    .about-section .btn {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+    .about-section .quotes {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 20px auto;
+    }
+    .contact-card {
+        padding: 20px !important;
+    }
+    .contact-card h2 {
+        font-size: 1.3rem;
+    }
+    .contact-card .para,
+    .contact-card li {
+        font-size: 14px;
+    }
+    iframe {
+        height: 250px;
+    }
+    form label {
+        font-size: 14px;
+    }
+    .social-icons a {
+        font-size: 1.2rem !important;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 30px 0;
+    }
+    footer .footer-logo {
+        font-size: 24px;
+    }
+    footer .footer-social a {
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    footer .footer-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer .footer-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer .newsletter form {
+        flex-direction: column;
+    }
+    footer h5 {
+        font-size: 18px;
+    }
+    footer p, footer ul li {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices (landscape phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 1.6rem;
+    }
+    .section-subheading {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    .card-body h5 {
+        font-size: 1.2rem;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    .about-section .card {
+        margin-bottom: 2rem !important;
+    }
+    .about-section .card img {
+        height: 320px;
+    }
+    .about-section .card-body {
+        padding: 1.75rem !important;
+        height: 320px;
+        overflow-y: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.25rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1.1rem;
+    }
+    .about-section .card-body p,
+    .about-section .card-body ul li {
+        font-size: 15px;
+    }
+    .about-section .btn {
+        padding: 10px 16px;
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .about-section .quotes {
+        font-size: 18px;
+        padding: 22px 18px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 30px auto;
+    }
+    .contact-card h2 {
+        font-size: 1.5rem;
+    }
+    iframe {
+        height: 300px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 40px 0;
+    }
+    footer .footer-input {
+        width: 180px;
+    }
+    footer .footer-social a {
+        margin-right: 18px;
+        font-size: 22px;
+    }
+}
+
+/* Medium Devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 1.8rem;
+    }
+    .section-subheading {
+        font-size: 1.05rem;
+        margin-bottom: 30px;
+    }
+    
+    /* Review Section */
+    .review-section .carousel {
+        padding: 0 50px;
+    }
+    .review-section .section-title {
+        font-size: 1.8rem;
+    }
+    .review-section .review-text {
+        font-size: 0.85rem;
+        min-height: 90px;
+    }
+    .review-section .customer-img img {
+        width: 70px;
+        height: 70px;
+    }
+    .review-section .carousel-control-prev-icon,
+    .review-section .carousel-control-next-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    .about-section .card {
+        margin-bottom: 2.5rem !important;
+    }
+    .about-section .card img {
+        height: 380px;
+    }
+    .about-section .card-body {
+        padding: 2rem !important;
+        height: 380px;
+        overflow-y: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.35rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1.2rem;
+    }
+    .about-section .card-body p,
+    .about-section .card-body ul li {
+        font-size: 15px;
+    }
+    .about-section .btn {
+        padding: 11px 18px;
+        font-size: 14px;
+    }
+    .about-section .quotes {
+        font-size: 20px;
+        padding: 25px 20px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 40px auto;
+    }
+    .contact-card h2 {
+        font-size: 1.6rem;
+    }
+    iframe {
+        height: 320px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 50px 0;
+    }
+    footer .footer-input {
+        width: 160px;
+    }
+    footer .col-md-2 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    footer .col-md-3 {
+        flex: 0 0 auto;
+        width: 37.5%;
+    }
+}
+
+/* Large Devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 2rem;
+    }
+    
+    /* Review Section - Tablet and Desktop 3 cards layout */
+    .review-section .carousel {
+        padding: 0 60px;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 50px auto;
+        max-width: 1140px;
+    }
+    .about-section .card {
+        margin-bottom: 3rem !important;
+    }
+    .about-section .card img {
+        height: 420px;
+    }
+    .about-section .card-body {
+        padding: 2.25rem !important;
+        height: 420px;
+        overflow-y: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.45rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1.3rem;
+    }
+    .about-section .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .about-section .quotes {
+        font-size: 22px;
+        padding: 28px 25px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 50px auto;
+    }
+    iframe {
+        height: 350px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 60px 0;
+    }
+    footer .footer-input {
+        width: 190px;
+    }
+    footer .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra Large Devices (large desktops, 1200px to 1399px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 2.2rem;
+    }
+    .section-subheading {
+        font-size: 1.2rem;
+        margin-bottom: 45px;
+    }
+    .card-body h5 {
+        font-size: 1.4rem;
+    }
+    .card-body h3 {
+        font-size: 1.6rem;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 60px auto;
+        max-width: 1140px;
+    }
+    .about-section .card {
+        margin-bottom: 3rem !important;
+    }
+    .about-section .card img {
+        height: 450px;
+    }
+    .about-section .card-body {
+        padding: 2.5rem !important;
+        height: 450px;
+        overflow-y: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.55rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1.35rem;
+    }
+    .about-section .card-body p,
+    .about-section .card-body ul li {
+        font-size: 16px;
+    }
+    .about-section .btn {
+        padding: 13px 22px;
+        font-size: 15px;
+    }
+    .about-section .quotes {
+        font-size: 24px;
+        padding: 30px 25px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 60px auto;
+        max-width: 1140px;
+    }
+    .contact-card {
+        padding: 2rem !important;
+    }
+    iframe {
+        height: 380px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 70px 0;
+    }
+    footer .footer-input {
+        width: 220px;
+    }
+    footer .container {
+        max-width: 1140px;
+    }
+    footer .footer-social a {
+        font-size: 28px;
+    }
+}
+
+/* Extra Extra Large Devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Common Typography */
+    .section-heading {
+        font-size: 2.5rem;
+    }
+    .section-subheading {
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+    }
+    .card-body {
+        padding: 2rem;
+    }
+    .card-body h5 {
+        font-size: 1.5rem;
+    }
+    .card-body h3 {
+        font-size: 1.75rem;
+    }
+    .card-body p,
+    .card-body li {
+        font-size: 17px;
+    }
+    
+    /* About Section */
+    .about-section {
+        margin: 70px auto;
+        max-width: 1320px;
+    }
+    .about-section .card {
+        margin-bottom: 3.5rem !important;
+    }
+    .about-section .card img {
+        height: 500px;
+    }
+    .about-section .card-body {
+        padding: 3rem !important;
+        height: 500px;
+        overflow-y: auto;
+    }
+    .about-section .card-body h5 {
+        font-size: 1.75rem;
+    }
+    .about-section .card-body h3 {
+        font-size: 1.5rem;
+    }
+    .about-section .card-body p,
+    .about-section .card-body ul li {
+        font-size: 17px;
+    }
+    .about-section .btn {
+        padding: 14px 26px;
+        font-size: 15px;
+    }
+    .about-section .quotes {
+        font-size: 26px;
+        padding: 35px 30px;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        margin: 70px auto;
+        max-width: 1320px;
+    }
+    .contact-card {
+        padding: 2.5rem !important;
+    }
+    .contact-card h2 {
+        font-size: 2rem;
+    }
+    .contact-card .para,
+    .contact-card li {
+        font-size: 18px;
+    }
+    iframe {
+        height: 400px;
+    }
+    form label {
+        font-size: 17px;
+    }
+    .btn-custome {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 80px 0;
+    }
+    footer .footer-input {
+        width: 250px;
+    }
+    footer .container {
+        max-width: 1320px;
+    }
+    footer .footer-social a {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+    footer h5 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+}
+
+
+
