@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GreenBasket</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!--Custome CSS-->
+    <link rel="stylesheet" href="STYLE/style.css">
+  </head>
+  <body>
+    <!--Header Section Starts-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+     <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="./images/logo/logo1.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#product-section">PRODUCTS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CATEGORIES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="vegetables.html">VEGETABLES</a></li>
+            <li><a class="dropdown-item" href="fruits.html">FRUITS</a></li>
+            <li><a class="dropdown-item" href="spices.html">SPICES</a></li>
+            <li><a class="dropdown-item" href="milkproducts.html">MILK PRODUCTS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#gallery-section">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#review-section">REVIEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about-section">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact-section">CONTACT US</a>
+        </li>
+      </ul>
+
+      <div class="icons d-flex align-items-center">
+        <button class="btn btn-link nav-icon" id="searchBtn">
+               <i class="fa fa-search"></i>
+        </button>
+
+        <a href="login.html">
+         <button class="btn btn-link nav-icon" id="userBtn">
+               <i class="fa fa-user"></i>
+        </button>
+        </a>
+
+        <button class="btn btn-link nav-icon position-relative" id="wishlistBtn">
+           <i class="fa fa-heart"></i>
+           <span class="badge bg-danger position-absolute top-0 start-100 translate-middle" id="wishlistCount">0</span>
+        </button>
+
+        <button class="btn btn-link nav-icon position-relative" id="cartBtn"><i class="fa fa-shopping-cart"></i>
+          <span class="badge bg-danger position-absolute top-0 start-100 translate-middle" id="cartCount">0</span>
+        </button>
+      </div> 
+    </div>
+  </div>
+</nav>
+<!-----------Search Bar--------------------------------->
+<div class="search-container" id="searchContainer" style="display: none;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="input-group">
+          <input type="text" class="form-control" id="searchInput" placeholder="Search for Products">
+          <button  class="btn btn-success searchSubmit" id="searchSubmit">Search</button>
+          <button class="btn btn-outline-secondary searchClose" id="searchClose">Close</button>
+        </div>
+        <div id="searchResults" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------Header Section Ends--------------------->
+
+<!-- Products Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4" id="productsContainer">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+<!--------------------------Footer Starts--------------------------------->
+    <footer class="footer-section" id="footer-section">
+        <div class="container">
+        <div class="row">
+            <!----------Logo & About--------->
+            <div class="col-md-4 mb-4">
+                <h3 class="mb-3 footer-logo">GreenBasket</h3>
+                <p>Your trusted organic grocery store delivering fresh and healthy produce straight from farms to your kitchen.</p>
+                <div class="footer-social mt-3">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-------------Quick links------------->
+            <div class="col-md-2 mb-4 quick-links">
+                <h5 class="mb-3">QUICK LINKS</h5>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#product-section">Products</a></li>
+                     <li><a href="index.html#gallery-section">Products</a></li>
+                    <li><a href="index.html#review-section">Gallery</a></li>
+                    <li><a href="index.html#about-section">About Us</a></li>
+                    <li><a href="index.html#contact-section">Contact Us</a></li> 
+                </ul>
+            </div>
+
+            <!------------Contact Info------------>
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">CONTACT US</h5>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>Kizhakkummuri,Kakkodi,Calicut</p>
+                    <p><i class="fa fa-phone me-2"></i> +91 8848292910</p>
+                    <p><i class="fa fa-envelope me-2"></i> abhinandav@gmail.com</p>
+            </div>
+
+             <!----------why choose us--------->
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">WHY CHOOSE GreenBasket</h5>
+                    <p>🥦 100% Organic Certified</p>
+                    <p>🚚 Fast & Fresh Delivery</p>
+                    <p>❤️ Trusted by Families</p>
+            </div>
+
+            <!----------------Footer Bottom--------------------->
+            <div class="footer-bottom text-center">
+                <p>© 2025 GreenBasket | All Rights Reserved.</p>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="JS/script.js"></script>
+     <script>
+        // Load spices
+        loadCategoryProducts('spices');
+    </script>
+  </body>
+</html>
